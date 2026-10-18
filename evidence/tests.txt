@@ -1,0 +1,10 @@
+test_alert_fanout (test_weather.Integration.test_alert_fanout) ... ok
+test_four_parallel_clients (test_weather.Integration.test_four_parallel_clients) ... ok
+test_framing_errors_unicode (test_weather.Integration.test_framing_errors_unicode) ... ok
+test_long_frame (test_weather.Integration.test_long_frame) ... ok
+test_udp_drop_and_recovery (test_weather.Integration.test_udp_drop_and_recovery) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 1.650s
+
+OK

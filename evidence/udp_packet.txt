@@ -1,0 +1,64 @@
+Frame 96: Packet, 118 bytes on wire (944 bits), 118 bytes captured (944 bits) on interface \Device\NPF_Loopback, id 0
+    Section number: 1
+    Interface id: 0 (\Device\NPF_Loopback)
+        Interface name: \Device\NPF_Loopback
+        Interface description: Adapter for loopback traffic capture
+    Encapsulation type: NULL/Loopback (15)
+    Arrival Time: Oct 18, 2026 18:39:23.172592600 Финляндия (лето)
+    UTC Arrival Time: Oct 18, 2026 15:39:23.172592600 UTC
+    Epoch Arrival Time: 1792337963.172592600
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 982.772300 milliseconds]
+    [Time since reference or first frame: 2.130832300 seconds]
+    Frame Number: 96
+    Frame Length: 118 bytes (944 bits)
+    Capture Length: 118 bytes (944 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: null:ip:udp:data]
+    Character encoding: ASCII (0)
+Null/Loopback
+    Family: IP (2)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 114
+    Identification: 0x145a (5210)
+    000. .... = Flags: 0x0
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: UDP (17)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 127.0.0.1
+    Destination Address: 127.0.0.1
+    [Stream index: 0]
+User Datagram Protocol, Src Port: 9001, Dst Port: 57760
+    Source Port: 9001
+    Destination Port: 57760
+    Length: 94
+    Checksum: 0x9ef2 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 0]
+    [Stream Packet Number: 3]
+    [Timestamps]
+        [Time since first frame: 983.158000 milliseconds]
+        [Time since previous frame: 982.982200 milliseconds]
+    UDP payload (86 bytes)
+Data (86 bytes)
+
+0000  7b 22 74 79 70 65 22 3a 20 22 45 4d 45 52 47 45   {"type": "EMERGE
+0010  4e 43 59 5f 41 4c 45 52 54 22 2c 20 22 73 65 71   NCY_ALERT", "seq
+0020  22 3a 20 32 2c 20 22 6d 65 73 73 61 67 65 22 3a   ": 2, "message":
+0030  20 22 4d 4f 43 4b 3a 20 73 74 6f 72 6d 20 77 61    "MOCK: storm wa
+0040  72 6e 69 6e 67 22 2c 20 22 6d 6f 63 6b 22 3a 20   rning", "mock": 
+0050  74 72 75 65 7d 0a                                 true}.
+    Data: 7b2274797065223a2022454d455247454e43595f414c455254222c2022736571223a20322c20226d657373616765223a20224d4f434b3a2073746f726d207761726e696e67222c20226d6f636b223a20747275657d0a
+    [Length: 86]
+

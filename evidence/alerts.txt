@@ -1,0 +1,4 @@
+('0.0.0.0', 57760) {"type": "SUBSCRIBED"}
+('0.0.0.0', 57761) {"type": "SUBSCRIBED"}
+('0.0.0.0', 57760) {"type": "EMERGENCY_ALERT", "seq": 2, "message": "MOCK: storm warning", "mock": true}
+('0.0.0.0', 57761) {"type": "EMERGENCY_ALERT", "seq": 2, "message": "MOCK: storm warning", "mock": true}

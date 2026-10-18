@@ -1,0 +1,34 @@
+File name:           evidence/traffic.pcapng
+File type:           Wireshark/... - pcapng
+File encapsulation:  NULL/Loopback
+File timestamp precision:  nanoseconds (9)
+Packet size limit:   file hdr: (not set)
+Number of packets:   489
+File size:           41 kB
+Data size:           25 kB
+Capture duration:    13,256883600 seconds
+Earliest packet time: 2026-10-18 18:39:21,041760300
+Latest packet time:   2026-10-18 18:39:34,298643900
+Data byte rate:      1900 bytes/s
+Data bit rate:       15 kbps
+Average packet size: 51,53 bytes
+Average packet rate: 36 packets/s
+SHA256:              4a5741fca90bc1323a93db706d6c07c2af2e1e5b4bb27d988e48fbe472a7c44e
+SHA1:                ae4310e47567c81a065f81fd5319be95866acada
+Strict time order:   True
+Capture hardware:    AMD Ryzen 5 5600 6-Core Processor (with SSE4.2)
+Capture oper-sys:    64-bit Windows 10 (22H2), build 19045
+Capture application: Dumpcap (Wireshark) 4.6.9 (v4.6.9-0-g2d548b197c75)
+Number of interfaces in file: 1
+Interface #0 info:
+                     Name = \Device\NPF_Loopback
+                     Description = Adapter for loopback traffic capture
+                     Encapsulation = NULL/Loopback (15 - null)
+                     Capture length = 262144
+                     Time precision = nanoseconds (9)
+                     Time ticks per second = 1000000000
+                     Time resolution = 0x09
+                     Filter string = tcp port 9000 or udp port 9001
+                     Operating system = 64-bit Windows 10 (22H2), build 19045
+                     Number of stat entries = 1
+                     Number of packets = 489

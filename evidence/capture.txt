@@ -1,0 +1,4 @@
+Capturing on 'Adapter for loopback traffic capture'
+File: C:\Users\snoel\Documents\ChatGPT\Організація мереж\evidence\traffic.pcapng
+Packets: 1 Packets: 44 Packets: 45 Packets: 80 Packets: 95 Packets: 96 Packets: 118 Packets: 119 Packets: 137 Packets: 138 Packets: 156 Packets: 157 Packets: 175 Packets: 176 Packets: 194 Packets: 195 Packets: 213 Packets: 214 Packets: 232 Packets: 233 Packets: 251 Packets: 252 Packets: 270 Packets: 271 Packets: 289 Packets: 290 Packets: 489 Packets captured: 489
+Packets received/dropped on interface 'Adapter for loopback traffic capture': 489/0 (pcap:0/dumpcap:0/flushed:0/ps_ifdrop:0) (100.0%)

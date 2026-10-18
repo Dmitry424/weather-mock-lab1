@@ -1,0 +1,37 @@
+2026-10-18 18:39:19,151 MainThread READY TCP=('127.0.0.1', 9000) UDP=('127.0.0.1', 9001) drop_every=10
+2026-10-18 18:39:21,041 Thread-4 (process_request_thread) CONNECT ip=127.0.0.1 port=64342
+2026-10-18 18:39:21,042 Thread-4 (process_request_thread) COMMAND client=('127.0.0.1', 64342) command='GET_WEATHER Dnipro'
+2026-10-18 18:39:21,042 Thread-5 (process_request_thread) CONNECT ip=127.0.0.1 port=64343
+2026-10-18 18:39:21,042 Thread-5 (process_request_thread) COMMAND client=('127.0.0.1', 64343) command='GET_WEATHER Lviv'
+2026-10-18 18:39:21,042 Thread-6 (process_request_thread) CONNECT ip=127.0.0.1 port=64341
+2026-10-18 18:39:21,043 Thread-4 (process_request_thread) COMMAND client=('127.0.0.1', 64342) command='BAD_COMMAND'
+2026-10-18 18:39:21,043 Thread-5 (process_request_thread) COMMAND client=('127.0.0.1', 64343) command='BAD_COMMAND'
+2026-10-18 18:39:21,043 Thread-7 (process_request_thread) CONNECT ip=127.0.0.1 port=64344
+2026-10-18 18:39:21,043 Thread-6 (process_request_thread) COMMAND client=('127.0.0.1', 64341) command='GET_WEATHER Kyiv'
+2026-10-18 18:39:21,043 Thread-7 (process_request_thread) COMMAND client=('127.0.0.1', 64344) command='GET_WEATHER Odesa'
+2026-10-18 18:39:21,043 Thread-6 (process_request_thread) COMMAND client=('127.0.0.1', 64341) command='BAD_COMMAND'
+2026-10-18 18:39:21,044 Thread-7 (process_request_thread) COMMAND client=('127.0.0.1', 64344) command='BAD_COMMAND'
+2026-10-18 18:39:22,045 Thread-5 (process_request_thread) COMMAND client=('127.0.0.1', 64343) command='EXIT'
+2026-10-18 18:39:22,045 Thread-7 (process_request_thread) COMMAND client=('127.0.0.1', 64344) command='EXIT'
+2026-10-18 18:39:22,045 Thread-6 (process_request_thread) COMMAND client=('127.0.0.1', 64341) command='EXIT'
+2026-10-18 18:39:22,045 Thread-4 (process_request_thread) COMMAND client=('127.0.0.1', 64342) command='EXIT'
+2026-10-18 18:39:22,045 Thread-5 (process_request_thread) DISCONNECT ip=127.0.0.1 port=64343
+2026-10-18 18:39:22,045 Thread-7 (process_request_thread) DISCONNECT ip=127.0.0.1 port=64344
+2026-10-18 18:39:22,045 Thread-6 (process_request_thread) DISCONNECT ip=127.0.0.1 port=64341
+2026-10-18 18:39:22,045 Thread-4 (process_request_thread) DISCONNECT ip=127.0.0.1 port=64342
+2026-10-18 18:39:22,175 Thread-8 (process_request_thread) CONNECT ip=127.0.0.1 port=64346
+2026-10-18 18:39:22,175 Thread-8 (process_request_thread) COMMAND client=('127.0.0.1', 64346) command='GET_WEATHER Київ'
+2026-10-18 18:39:22,175 Thread-8 (process_request_thread) COMMAND client=('127.0.0.1', 64346) command='EXIT'
+2026-10-18 18:39:22,176 Thread-8 (process_request_thread) DISCONNECT ip=127.0.0.1 port=64346
+2026-10-18 18:39:23,172 Thread-3 (alerts) ALERT seq=2 target=('127.0.0.1', 57760)
+2026-10-18 18:39:23,172 Thread-3 (alerts) ALERT seq=2 target=('127.0.0.1', 57761)
+2026-10-18 18:39:23,174 Thread-2 (serve_forever) UDP DROP client=('127.0.0.1', 57763) seq=10
+2026-10-18 18:39:24,183 Thread-2 (serve_forever) UDP DROP client=('127.0.0.1', 57763) seq=20
+2026-10-18 18:39:25,200 Thread-2 (serve_forever) UDP DROP client=('127.0.0.1', 57763) seq=30
+2026-10-18 18:39:26,209 Thread-2 (serve_forever) UDP DROP client=('127.0.0.1', 57763) seq=40
+2026-10-18 18:39:27,210 Thread-2 (serve_forever) UDP DROP client=('127.0.0.1', 57763) seq=50
+2026-10-18 18:39:28,220 Thread-2 (serve_forever) UDP DROP client=('127.0.0.1', 57763) seq=60
+2026-10-18 18:39:29,230 Thread-2 (serve_forever) UDP DROP client=('127.0.0.1', 57763) seq=70
+2026-10-18 18:39:30,240 Thread-2 (serve_forever) UDP DROP client=('127.0.0.1', 57763) seq=80
+2026-10-18 18:39:31,250 Thread-2 (serve_forever) UDP DROP client=('127.0.0.1', 57763) seq=90
+2026-10-18 18:39:32,258 Thread-2 (serve_forever) UDP DROP client=('127.0.0.1', 57763) seq=100

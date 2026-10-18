@@ -1,0 +1,2 @@
+weather> {"status": "OK", "city": "Київ", "temperature_c": -7, "humidity_pct": 99, "wind_m_s": 13.1, "mock": true}
+weather> {"status": "BYE"}
